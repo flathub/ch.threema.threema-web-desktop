@@ -15,7 +15,7 @@ specific.
   submodule (as described in the README).
 * [x] Since the app uses Electron we use the official Flatpak Electron template.
   However, as described in detail here [2] we need to pre-fetch all dependencies,
-  as node may not connect to the Internet within the buuild step.
+  as node may not connect to the Internet within the build step.
   As the actual application and its `package-lock.json` is distributed over
   multiple files (and repos), we create the `generated-sources.json` file by
   cloning the repo with all submodules,
